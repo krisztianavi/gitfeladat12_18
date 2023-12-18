@@ -20,3 +20,8 @@ function kiiratas(){
     const szamlista = document.getElementById('szamlista');
     szamlista.textContent = 'Számok: ' + szamok.join(', ');
 }
+
+function minKiiratas(){
+    const minszam = Math.min(...szamok);
+    alert('Minimum szám: ' + minszam);
+}
