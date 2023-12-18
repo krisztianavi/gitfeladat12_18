@@ -25,3 +25,8 @@ function minKiiratas(){
     const minszam = Math.min(...szamok);
     alert('Minimum szám: ' + minszam);
 }
+
+function maxKiiratas(){
+    const maxszam = Math.max(...szamok);
+    alert('Maximum szám: ' + maxszam);
+}
